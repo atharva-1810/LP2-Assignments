@@ -1,0 +1,18 @@
+public class Calculator {
+public Double val1 { get; set;}
+public Double val2 { get; set;}
+public Double result { get; set;}
+    
+    public void add(){
+        result=val1+val2;
+    }
+    public void subtract(){
+        result=val1-val2;
+    }
+    public void multiply(){
+        result=val1*val2;
+    }
+    public void divide(){
+        result=val1/val2;
+    }
+}
